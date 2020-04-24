@@ -1,10 +1,10 @@
 require 'formula'
 
 class Flock < Formula
-  homepage 'https://github.com/discoteq/flock'
-  version '0.2.3'
-  url "https://github.com/discoteq/flock/releases/download/v#{version}/flock-#{version}.tar.xz"
-  sha256 '3233658199683c807c21b0ef0fc32246e420f2a6e48f7044d2ccb763ff320c70'
+  desc "Lock file during command"
+  homepage "https://github.com/discoteq/flock"
+  url "https://github.com/discoteq/flock/releases/download/v0.4.0/flock-0.4.0.tar.xz"
+  sha256 "01bbd497d168e9b7306f06794c57602da0f61ebd463a3210d63c1d8a0513c5cc"
 
   def install
     system './configure', '--disable-debug',
